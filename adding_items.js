@@ -15,6 +15,13 @@ user_input.addEventListener('keypress', (e) => {
     todoList.appendChild(list_item);
     user_input.value = '';
   }
-
+  todoList.addEventListener('click',(e)=>{
+    if(e.target.checked){
+      e.target.parentElement.classList.add('container');
+    }
+    else{
+      e.target.parentElement.classList.remove('container');
+    }
+  })
 
 })

@@ -24,7 +24,7 @@ button{
 }
 
 .list_of_items{
-  
+  margin-top: 10px;
   text-align: center;
 }
 
@@ -44,6 +44,7 @@ input[type="checkbox"]{
 
 .container{
   color:gray;
-
+  text-decoration: line-through;
+  font-style: italic;
 }
 
