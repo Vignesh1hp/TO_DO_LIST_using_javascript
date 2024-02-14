@@ -35,6 +35,7 @@ ul{
 
 li{
   font-size: 20px;
+  list-style: none;
 }
 
 input[type="checkbox"]{
@@ -45,3 +46,4 @@ input[type="checkbox"]{
   color:gray;
 
 }
+
