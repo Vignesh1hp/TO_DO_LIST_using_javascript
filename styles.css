@@ -23,9 +23,16 @@ button{
   font-size:20px;
 }
 
+.list_of_items{
+  
+  margin:auto;
+  padding: auto;
+  width:20%;
+}
+
 ul{
   list-style: none;
-  text-align: center;
+  text-align: start;
 }
 
 li{

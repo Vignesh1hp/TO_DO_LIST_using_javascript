@@ -3,7 +3,7 @@ const user_input = document.getElementById('userInput');
 const todoList = document.getElementById('todoList');
 
 user_input.addEventListener('keypress', (e) => {
-  if (e.code === "Enter") {
+  if (e.code === "Enter" && user_input !== '') {
     console.log('hello');
     let todo = e.target.value;
     let list_item = document.createElement('li');
